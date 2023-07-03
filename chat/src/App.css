@@ -1,0 +1,111 @@
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.margin{
+  margin: 5rem;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.login-buttons{
+  margin-top: 5rem;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.signOutBtn{
+  position: absolute;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.signOutCont{
+  position: relative;
+}
+
+.ChatCont{
+  width: 90vw;
+  margin-top: 5rem;
+  position: relative;
+  margin-bottom: 5rem;
+  min-height: 90vh;
+}
+
+.TextCont{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px 5px 5px 0px;
+  max-width: 500px;
+  min-width: 200px;
+  font-family: cursive;
+  font-weight: 600;
+  letter-spacing: 0.1ch;
+}
+
+.MessageCont{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sender{
+ font-family: cursive;
+ font-weight: 600;
+ letter-spacing: 0.1ch;
+ color: white;
+ margin-left: 0.1rem;
+}
+
+.MessageForm{
+  position: absolute;
+  bottom: 5px;
+}
+
+.MessageInput{
+  border-radius: 5px;
+  width: 500px;
+  margin-left: 30vw;
+  height: 40px;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+
+.MessageInput:focus{
+  outline: none;
+}
+
+.SendButton{
+  height: 52px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sent{
+  margin-left: 90%;
+ 
+}
+
+.sent > div{
+  border-radius: 5px 5px 0px 5px;
+  background-color: rgb(38, 38, 172);
+}
+
+.sent > span{
+  color: white;
+}
+
