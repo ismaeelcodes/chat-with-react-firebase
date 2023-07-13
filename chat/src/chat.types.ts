@@ -5,6 +5,7 @@ export interface MessageType {
      };
      uid: string;
      text: string;
+     imageUrl: string;
   }
 
 export interface MessageProps {
