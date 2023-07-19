@@ -96,7 +96,7 @@
 }
 
 .sent{
-  margin-left: 90%;
+  margin-left: 80%;
  
 }
 
@@ -112,4 +112,8 @@
 .ImageEmbed{
   height: 200px;
   width: 200px;
+}
+
+.sound-wave{
+ display: none;
 }

@@ -6,6 +6,7 @@ export interface MessageType {
      uid: string;
      text: string;
      imageUrl: string;
+     voiceMessageUrl: string;
   }
 
 export interface MessageProps {
