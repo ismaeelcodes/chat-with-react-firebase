@@ -8,7 +8,7 @@ function Message({ message }: MessageProps) {
 
   return (
     <div className={style + ' ' + 'MessageCont'}>
-      <span className='Sender'>Leaf</span>
+      <span className='Sender'>{message.name}</span>
       <div className='TextCont'>
         {message.text ? message.text : message.imageUrl && (<img className="ImageEmbed" src={message.imageUrl} alt='Uploaded' />)}
         {message.voiceMessageUrl && (

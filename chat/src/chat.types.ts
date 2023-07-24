@@ -7,6 +7,7 @@ export interface MessageType {
      text: string;
      imageUrl: string;
      voiceMessageUrl: string;
+     name: string;
   }
 
 export interface MessageProps {
